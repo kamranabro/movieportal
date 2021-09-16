@@ -1,0 +1,75 @@
+.appslider{
+    width: 100%;
+    height: 500px;
+    
+}
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      height: inherit;
+      filter:blur(1px);
+      background-image: contain;
+    }
+  
+    .card{
+      border-radius: 10px;
+      padding: 14px;
+      padding-bottom: 20px;
+      height: 12px;
+      /* background: rgba(22, 22, 22, 0.61);   */
+      background: transparent !important;
+      border: none !important;  
+    }
+    .card-text{
+      color: white;
+    }
+    .btn{
+      margin: 2px;
+    }
+    @media screen and (max-width: 991px){
+      .appslider{
+        width: 100%;
+        height: 250px;   
+      } 
+      .swiper-slide img {
+      object-fit: cover;
+    }
+    .background{
+      padding: 0px !important;
+    }
+    .card{
+      height: 18rem !important;
+    }
+/* @media screen and (max-width: 17rem){
+  .card{
+    border-radius: 10px;
+    padding: 14px;
+    height: 12px;
+  }
+} */
+}
